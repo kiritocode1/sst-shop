@@ -35,7 +35,7 @@ const Carpediem: FC<CarpediemProps> = ({words}) => {
 			velocityDamping: 0.95,
 			colorMultiplier: 40000,
 			saturationMultiplier: 1000,
-			textChangeInterval: 5000,
+			textChangeInterval: 10000,
 			rotationForceMultiplier: 0.5,
 		};
 		let currentTextIndex = 0;
