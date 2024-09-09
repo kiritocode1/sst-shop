@@ -27,7 +27,7 @@ const Carpediem: FC<CarpediemProps> = ({words}) => {
 
 		const config = {
 			particleCount: 8000,
-			textArray: words??["$> npm i sst", "sst.dev", "$> ssh terminal.shop"],
+			textArray: words??["npm i sst", "sst.dev", "ssh terminal.shop"],
 			mouseRadius: 0.1,
 			particleSize: 2,
 			forceMultiplier: 0.001,
